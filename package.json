@@ -1,0 +1,26 @@
+{
+  "name": "server-typescript-webpack",
+  "version": "1.0.0",
+  "description": "A seed to create a express server with Typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build-webpack": "webpack",
+    "dev": "nodemon dist/main.js",
+    "start": "node dist/main.js"
+  },
+  "keywords": ["Typescript","Node.js","Express"],
+  "author": "Francisco Javier Martin",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.11.1",
+    "nodemon": "^1.17.5",
+    "ts-loader": "^4.3.1",
+    "typescript": "^2.9.1",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
